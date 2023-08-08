@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity Sensors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 50px;
+        }
+
+        form {
+            margin-top: 50px;
+            display: inline-block;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input[type="number"] {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #444;
+            }
+    </style>
+</head>
+<body>
+    <h1>Enter the Site</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="number">Click to start:</label>
+        <input type="submit" value="Plot">
+    </form>
+    {% if plot1 %}
+    <h2>Accelerometer of Sensor - 1 (X)</h2>
+    <img src="data:image/png;base64,{{ plot1 }}">
+    {% endif %}
+    <div>
+        {% if plot2 %}
+        <h2>Accelerometer of Sensor - 1 (Y)</h2>
+        <img src="data:image/png;base64,{{ plot2 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot3 %}
+        <h2>Accelerometer of Sensor - 1 (Z)</h2>
+        <img src="data:image/png;base64,{{ plot3 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot4 %}
+        <h2>Accelerometer of Sensor - 2 (X)</h2>
+        <img src="data:image/png;base64,{{ plot4 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot5 %}
+        <h2>Accelerometer of Sensor - 2 (Y)</h2>
+        <img src="data:image/png;base64,{{ plot5 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot6 %}
+        <h2>Accelerometer of Sensor - 2 (Z)</h2>
+        <img src="data:image/png;base64,{{ plot6 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot7 %}
+        <h2>Accelerometer of Sensor - 3 (X)</h2>
+        <img src="data:image/png;base64,{{ plot7 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot8 %}
+        <h2>Accelerometer of Sensor - 3 (Y)</h2>
+        <img src="data:image/png;base64,{{ plot8 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot9 %}
+        <h2>Accelerometer of Sensor - 3 (Z)</h2>
+        <img src="data:image/png;base64,{{ plot9 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot10 %}
+        <h2>Gyroscope of Sensor - 1 (X)</h2>
+        <img src="data:image/png;base64,{{ plot10 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot11 %}
+        <h2>Gyroscope of Sensor - 1 (Y)</h2>
+        <img src="data:image/png;base64,{{ plot11 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot12 %}
+        <h2>Gyroscope of Sensor - 1 (Z)</h2>
+        <img src="data:image/png;base64,{{ plot12 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot13 %}
+        <h2>Gyroscope of Sensor - 2 (X)</h2>
+        <img src="data:image/png;base64,{{ plot13 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot14 %}
+        <h2>Gyroscope of Sensor - 2 (Y)</h2>
+        <img src="data:image/png;base64,{{ plot14 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot15 %}
+        <h2>Gyroscope of Sensor - 2 (Z)</h2>
+        <img src="data:image/png;base64,{{ plot15 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot16 %}
+        <h2>Gyroscope of Sensor - 3 (X)</h2>
+        <img src="data:image/png;base64,{{ plot16 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot17 %}
+        <h2>Gyroscope of Sensor - 3 (Y)</h2>
+        <img src="data:image/png;base64,{{ plot17 }}">
+        {% endif %}
+    </div>
+    <div>
+        {% if plot18 %}
+        <h2>Gyroscope of Sensor - 3 (Z)</h2>
+        <img src="data:image/png;base64,{{ plot18 }}">
+        {% endif %}
+    </div>
+</body>
+</html>

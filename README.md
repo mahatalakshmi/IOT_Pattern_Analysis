@@ -5,10 +5,10 @@ This repository contains the code and documentation for a pattern analysis proje
 
 Team Members:
 
-Mahata Lakshmi (GitHub Username: johndoe)
-Shobit (GitHub Username: janesmith)
-Aasrith (GitHub Username: michaelbrown)
-Maneesha (GitHub Username: emilyjohnson)
+Mahata Lakshmi (GitHub Username: johndoe)<br>
+Shobit (GitHub Username: janesmith)<br>
+Aasrith (GitHub Username: michaelbrown)<br>
+Maneesha (GitHub Username: emilyjohnson)<br>
 
 Project Overview:
 
@@ -16,10 +16,10 @@ The goal of this project is to track and analyze the movement patterns of an obj
 
 Components Used:
 
-3x MPU9250 Sensors
-ESP32 Development Board
-Connecting Wires
-Breadboard 
+3x MPU9250 Sensors<br>
+ESP32 Development Board<br>
+Connecting Wires<br>
+Breadboard <br>
 
 Features:
 

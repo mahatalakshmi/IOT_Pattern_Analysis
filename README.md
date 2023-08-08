@@ -27,3 +27,11 @@ Motion tracking using MPU9250 sensors.<br/>
 Data fusion from multiple sensors for enhanced accuracy.<br/>
 Wireless data transmission to a central system for analysis.<br/>
 Pattern recognition and analysis algorithms to identify specific movements.<br/>
+![image](https://github.com/mahatalakshmi/IOT_Pattern_Analysis/assets/91476640/57e7a6fe-878c-47e7-8a8f-4c14319e7089)
+#output
+![image](https://github.com/mahatalakshmi/IOT_Pattern_Analysis/assets/91476640/5c8cf395-f498-448f-97f4-5839331de9dc)
+![image](https://github.com/mahatalakshmi/IOT_Pattern_Analysis/assets/91476640/051fb34b-d633-48b5-a21b-a22f2fc1170f)
+Similary we will be geting graphs for other values.
+
+
+

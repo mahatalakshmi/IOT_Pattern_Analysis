@@ -23,7 +23,7 @@ Breadboard <br>
 
 Features:
 
-Motion tracking using MPU9250 sensors.
-Data fusion from multiple sensors for enhanced accuracy.
-Wireless data transmission to a central system for analysis.
-Pattern recognition and analysis algorithms to identify specific movements.
+Motion tracking using MPU9250 sensors.<br/>
+Data fusion from multiple sensors for enhanced accuracy.<br/>
+Wireless data transmission to a central system for analysis.<br/>
+Pattern recognition and analysis algorithms to identify specific movements.<br/>

@@ -5,10 +5,10 @@ This repository contains the code and documentation for a pattern analysis proje
 
 Team Members:
 
-Mahata Lakshmi (GitHub Username: johndoe)<br/>
-Shobit (GitHub Username: janesmith)<br/>
-Aasrith (GitHub Username: michaelbrown)<br/>
-Maneesha (GitHub Username: emilyjohnson)<br/>
+Mahata Lakshmi (GitHub Username: mahatalakshmi)<br/>
+Shobit <br/>
+Aasrith <br/>
+Maneesha <br/>
 
 Project Overview:
 
